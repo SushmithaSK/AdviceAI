@@ -1,6 +1,6 @@
 let inputValue;
 let inputValue2;
-let apiKey = SECRET_API_KEY;
+let apiKey = ${{ secrets.SECRET_API_KEY }};
 let input_str;
 let input_str2;
 let imageUrl;
